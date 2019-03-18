@@ -22,5 +22,3 @@ def self.search(query)
       self.all
     end
   end
-end
-end
