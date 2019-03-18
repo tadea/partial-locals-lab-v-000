@@ -28,4 +28,3 @@ def self.search(name)
       return search_results
     end
   end
-end
