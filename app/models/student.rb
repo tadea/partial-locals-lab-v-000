@@ -19,6 +19,6 @@ def self.search(query)
     if query.present?
       where('NAME like ?', "%#{query}%")
     else
-      Student.all
+      Student.all.count
     end
   end
